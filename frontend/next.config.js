@@ -2,7 +2,8 @@
 const path = require("path");
 
 const nextConfig = {
-  output: "standalone",
+  // Use static output for Vercel
+  output: "export",
   eslint: {
     ignoreDuringBuilds: true,
   },
