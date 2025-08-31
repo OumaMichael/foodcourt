@@ -287,14 +287,10 @@ backend/
 For support, email oumamichael108@gmail.com
 
 ## 👥 Team Members
-| Name            | Role                  | Contact / Profile        |
+| Name            | Email              | Contact / Profile        |
 |-----------------|-----------------------|---------------------------|
-| Joshua Gichuhi  | Full Stack Developer  | @Njugunaa                 |
-| Lewis Dickson   | Full Stack Developer     | @lewisdicksonn@gmail.com  |
-| Brendah Edward  | Full Stack Developer    | @b-edward28               |
-| Michael Ouma    | Full Stack Developer  | @OumaMichael              |
-| Jeannette Derek | Full Stack Developer         | @Gnett                    |
-| Larry           | Full Stack Developer        | @Larr-y                   |
+| Michael Ouma    | oumamichael108@gmail.com  | @OumaMichael              |
+| Ian Kabaka | iankabaka9114@gmail.com        | kabakadev                  |
 
 ## 📄 License
 This project is licensed under the MIT License 
