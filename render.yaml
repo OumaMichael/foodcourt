@@ -6,10 +6,12 @@ services:
     plan: free
     rootDir: backend
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: gunicorn app:app
     envVars:
       - key: DATABASE_URL
-        value: sqlite:///app.db
+        fromDatabase:
+          name: foodcourt-db
+          property: connectionString
       - key: JWT_SECRET_KEY
         value: supersecret
 
@@ -26,3 +28,7 @@ services:
         value: https://nextgen-foodcourt-backend.onrender.com
       - key: PORT
         value: 3000
+
+databases:
+  - name: foodcourt-db
+    plan: free
