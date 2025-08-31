@@ -2,8 +2,7 @@
 const path = require("path");
 
 const nextConfig = {
-  // Use static output for Vercel
-  output: "export",
+  output: "standalone",   // <-- FIXED: standalone for Docker
   eslint: {
     ignoreDuringBuilds: true,
   },
