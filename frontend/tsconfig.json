@@ -14,9 +14,10 @@
     "jsx": "preserve",
     "incremental": true,
     "plugins": [{ "name": "next" }],
-    "baseUrl": ".",                // ✅ Important
+    "baseUrl": ".",                   
     "paths": {
-      "@/*": ["./*"]               // ✅ This now works
+      "@/*": ["./*"],                 // ✅ Matches frontend/*
+      "@/lib/*": ["./lib/*"]          // ✅ Explicitly map lib
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
