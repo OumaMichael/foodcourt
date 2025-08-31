@@ -13,11 +13,14 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [{ "name": "next" }],
-    "baseUrl": ".",                   
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": "frontend",
     "paths": {
-      "@/*": ["./*"],                 // ✅ Matches frontend/*
-      "@/lib/*": ["./lib/*"]          // ✅ Explicitly map lib
+      "@/*": ["*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
