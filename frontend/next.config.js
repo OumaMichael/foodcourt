@@ -1,11 +1,11 @@
-/** @type {import('next').NextConfig} */
+// next.config.js (for Vercel)
 const path = require("path");
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",   // <-- FIXED: standalone for Docker
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  output: "export",   // <--- Important for Vercel
+  distDir: "out",     // <--- Export to `out/` (Vercel will serve this)
+  eslint: { ignoreDuringBuilds: true },
   images: {
     unoptimized: true,
     domains: ["images.pexels.com"],
