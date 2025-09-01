@@ -3,8 +3,7 @@ const path = require("path");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",   // <--- Important for Vercel
-  distDir: "out",     // <--- Export to `out/` (Vercel will serve this)
+  output: "export",   // static export mode
   eslint: { ignoreDuringBuilds: true },
   images: {
     unoptimized: true,
