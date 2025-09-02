@@ -1,0 +1,21 @@
+[build]
+  # Base directory for your frontend app
+  base = "frontend"
+  # Command Netlify should run to build your app
+  command = "npm run build"
+  # Directory where the built files will be served from
+  publish = "out"
+
+# Redirect all routes to index.html (important for React Router / SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# (Optional) Add headers for caching and security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"

@@ -290,7 +290,6 @@ For support, email oumamichael108@gmail.com
 | Name            | Email              | Contact / Profile        |
 |-----------------|-----------------------|---------------------------|
 | Michael Ouma    | oumamichael108@gmail.com  | @OumaMichael              |
-| Ian Kabaka | iankabaka9114@gmail.com        | kabakadev                  |
 
 ## 📄 License
 This project is licensed under the MIT License 
